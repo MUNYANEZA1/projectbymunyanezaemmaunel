@@ -1,0 +1,204 @@
+body{
+    background-color: gray;
+}
+h1{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.div0{
+    background-color: aqua;
+    margin: 0%;
+}
+.horizontal{
+    background-color: rgb(136, 4, 136);
+    position: relative;
+    margin-bottom: 0px;
+    
+}
+.horizontal>li{
+    list-style-type: none;
+}
+li{
+    
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+li a{
+display: inline-block;
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+
+}
+.share{
+    float: right;
+}
+li a:hover{
+    background-color: burlywood;
+    color: black;
+}
+li a:active{
+    background-color: rgb(222, 135, 154);
+    color: blue;
+}
+.main{
+    margin-top: 0px;
+    background-color: green;
+    width: 500px;
+    height: 400px;
+}
+.main ul li{
+    display: block;
+}
+.ag, .horizontal li:active{
+    background-color: green;
+}
+
+.ag, li a:hover{
+    
+    color: blue;
+}
+.div1{
+    background-color: aquamarine;
+    height: 250px;
+    width: 95%;
+    margin-left: 23px;
+}
+.image1{
+    border-radius: 100%;
+    float: left;
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 10px;
+}
+h3{
+    padding-top: 30px;
+}
+.div2{
+    background-color: aquamarine;
+    height: 200px;
+    width: 95%;
+    margin-left: 23px;
+}
+.hed3{
+    color: brown;
+    text-align: center;
+}
+.about{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+h2{
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+}
+.hed{
+    display: block;
+}
+.two{
+    margin-top: 15px;
+    background-color: aqua;
+    border: 1px rgb(4, 120, 187);;
+    width: 95%;
+    height: 230px;
+    position: relative;
+    margin-left: 23px;
+
+}
+.div3{
+    background-color: cornflowerblue;
+    width: 50%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.div4{
+    background-color: darkslategray;
+    width: 50%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.image2{
+    width: 230px;
+    margin-top: 10px;
+}
+#last{
+    background-color: peru;
+    height: 65px;
+    text-align: center;
+}
+#copy{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+#footer{
+    color: blue;
+}
+.fa{
+    background-color: rgb(217, 255, 0);
+}
+.fa-share{
+    background-color: rgb(241, 10, 30);
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.fa-home{
+    background-color: blue;
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.fa-instagram{
+    background-color: rgb(247, 142, 5);
+    color: red;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.fa-facebook{
+    background-color: blue;
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.fa-whatsapp{
+    background-color: green;
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.fa-twitter{
+    background-color: blue;
+    color: white;
+    width: 40px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 5px;
+}

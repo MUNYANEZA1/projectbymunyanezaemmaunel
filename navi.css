@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(255, 252, 252);
+}
+h1{
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+}
+.main{
+    background-color: rgb(100, 112, 9);
+    text-align: center;
+}
+.main ul{
+    padding: 20px;
+    list-style: none;
+    color: white;
+}
+.main ul li{
+    display: inline;
+    width: 120px;
+    margin-left: 15px;
+    padding: 15px;
+
+}
+.main ul li a{
+    text-decoration: none;
+    color: yellow;
+}
+.active, .main ul li:hover{
+    background-color: blue;
+}
+#copy{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+#footer{
+    color: blue;
+}
+.fa{
+    background-color: rgb(217, 255, 0);
+}
+.fa-share, .fa-home,.fa-instagram,.fa-facebook,.fa-whatsapp,.fa-twitter,.fa-phone{
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.fa-home{
+    background-color: blue;
+    color: white;
+}
+.fa-instagram{
+    background-color: rgb(247, 142, 5);
+    color: red;
+}
+.fa-facebook{
+    background-color: blue;
+    color: white;
+}
+.fa-whatsapp{
+    background-color: green;
+    color: white;
+}
+.fa-twitter{
+    background-color: rgb(11, 137, 227);
+    color: white;
+}
+.fa-phone{
+    color: green;
+}
+.logo{
+    width: 70px;
+    border-radius: 30px;
+    position: fixed;
+    opacity: 0.3;
+}
